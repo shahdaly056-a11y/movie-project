@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+.navbar{
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+body{
+    background-color: #4f4545;
+    
+}
+
+.ivalid-feedback{
+    color: red;
+    background-color: red;
+}
+
+@media (max-width:767px){
+    body{
+        background-color: #4f4545;
+        font-size: 14px;
+
+    }
+}
+
+button{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.form-label{
+    margin: 15px;
+}
+
+ .grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto fill, minmax(200px,1000px));
+    gap: 20px;
+    background-color: white;
+    padding: 20px;    
+} 
